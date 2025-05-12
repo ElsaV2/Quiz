@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quelle Beauté Es-tu ?</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #2c1f3a, #3a2850);
+      font-family: 'Georgia', serif;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1.title-neon {
+      font-size: 2.8em;
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #c69fff, 0 0 30px #a678f5;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    p.subtitle-neon {
+      font-size: 1.2em;
+      color: #eee;
+      font-style: italic;
+      text-shadow: 0 0 8px #ffffff88, 0 0 10px #dabfff;
+      margin-bottom: 40px;
+    }
+    .question {
+      padding-bottom: 10px;
+
+      margin: 40px auto;
+      max-width: 800px;
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 10px;
+      text-align: left;
+    }
+    label {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: block;
+      margin: 15px 0;
+      font-size: 1em;
+    }
+    label input {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #ffb7d2;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    button:hover {
+      background-color: #ff8fb8;
+    }
+  </style>
+</head>
+<body>
+
+<h1 class="title-neon">Quelle Beauté Es-tu ?</h1>
+<p class="subtitle-neon">Ce test explore ton rayonnement naturel, entre éclat solaire et reflet lunaire...</p>
+
+
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>1. Quand tu entres dans un lieu inconnu, comment réagis-tu intérieurement ?</p>
+      <label><input type='radio' name='q0' value='A'> Tu ressens le besoin de te placer en retrait pour observer.</label><br>
+      <label><input type='radio' name='q0' value='B'> Tu captes l’ambiance et vas vers ce qui te paraît vivant ou chaleureux.</label><br>
+      <label><input type='radio' name='q0' value='C'> Tu restes calme, en phase avec ce que tu ressens sur le moment.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>2. Face à une personne expressive, que ressens-tu naturellement ?</p>
+      <label><input type='radio' name='q1' value='A'> Tu restes silencieux(se), mais tu analyses tout.</label><br>
+      <label><input type='radio' name='q1' value='B'> Tu te sens rapidement à l’aise et entres facilement en interaction.</label><br>
+      <label><input type='radio' name='q1' value='C'> Tu accueilles sans te précipiter, selon ton énergie du moment.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>3. Quand tu ressens une émotion forte (joie, tension, surprise)…</p>
+      <label><input type='radio' name='q2' value='A'> Tu la contiens ou l’intègres intérieurement avant tout.</label><br>
+      <label><input type='radio' name='q2' value='B'> Tu l’exprimes spontanément, parfois sans réfléchir.</label><br>
+      <label><input type='radio' name='q2' value='C'> Tu l’acceptes, mais tu ajustes ton expression selon le contexte.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>4. Quand tu es entouré(e), qu’est-ce qui te repose le plus ?</p>
+      <label><input type='radio' name='q3' value='A'> Pouvoir être là sans obligation de parler ou sourire.</label><br>
+      <label><input type='radio' name='q3' value='B'> Partager des émotions ou des rires sincères.</label><br>
+      <label><input type='radio' name='q3' value='C'> Observer, ressentir, sans trop de stimulation.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>5. Si on ne te dit rien, comment te comportes-tu avec les autres ?</p>
+      <label><input type='radio' name='q4' value='A'> Tu restes discret(e), tu n’imposes rien.</label><br>
+      <label><input type='radio' name='q4' value='B'> Tu engages facilement la discussion.</label><br>
+      <label><input type='radio' name='q4' value='C'> Tu écoutes, tu t’adaptes à la dynamique sans te forcer.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>6. Dans tes gestes au quotidien, tu es plutôt…</p>
+      <label><input type='radio' name='q5' value='A'> Mesuré(e), précis(e), rarement expansif(ve).</label><br>
+      <label><input type='radio' name='q5' value='B'> Naturel(le), expressif(ve), vivant(e).</label><br>
+      <label><input type='radio' name='q5' value='C'> Variable selon l’environnement ou ton état intérieur.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>7. Quand tu dois choisir une tenue importante…</p>
+      <label><input type='radio' name='q6' value='A'> Tu optes pour quelque chose de sobre, structuré, réfléchi.</label><br>
+      <label><input type='radio' name='q6' value='B'> Tu veux que ce soit vivant, flatteur ou réconfortant.</label><br>
+      <label><input type='radio' name='q6' value='C'> Tu choisis selon ce que tu ressens ce jour-là, sans exagération.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>8. Quand tu sens qu’on attend une réaction de toi…</p>
+      <label><input type='radio' name='q7' value='A'> Tu prends le temps de la formuler à ta façon.</label><br>
+      <label><input type='radio' name='q7' value='B'> Tu réponds souvent avec spontanéité.</label><br>
+      <label><input type='radio' name='q7' value='C'> Tu ressens la pression mais tu ajustes avec prudence.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>9. Ta relation au silence est…</p>
+      <label><input type='radio' name='q8' value='A'> Naturelle, nécessaire, souvent recherchée.</label><br>
+      <label><input type='radio' name='q8' value='B'> Parfois inconfortable, tu préfères combler les vides.</label><br>
+      <label><input type='radio' name='q8' value='C'> Supportable, voire agréable, selon les circonstances.</label>
+    </div>
+    
+    <div class='question'>
+      <p style='margin-bottom: 30px; font-size: 1.1em;'>10. Ce qui te fait sentir aligné(e), authentique…</p>
+      <label><input type='radio' name='q9' value='A'> Être dans un espace calme, centré, avec peu de sollicitations.</label><br>
+      <label><input type='radio' name='q9' value='B'> Partager une émotion vraie ou inspirer une réaction positive.</label><br>
+      <label><input type='radio' name='q9' value='C'> Être toi-même sans avoir à forcer ni à t’effacer.</label>
+    </div>
+    
+
+<button onclick="showResult()">Voir mon aura</button>
+
+<script>
+function showResult() {
+  let a = 0, b = 0, c = 0;
+  for (let i = 0; i < 10; i++) {
+    const val = document.querySelector('input[name="q'+i+'"]:checked');
+    if (!val) { alert("Merci de répondre à toutes les questions."); return; }
+    if (val.value === "A") a++;
+    else if (val.value === "B") b++;
+    else c++;
+  }
+  let url = "";
+  if (a >= 7) url = "resultat_glace.html";
+  else if (a >= 5) url = "resultat_saphir.html";
+  else if (b >= 7) url = "resultat_soleil.html";
+  else if (b >= 5) url = "resultat_velours.html";
+  else url = "resultat_iris.html";
+  window.location.href = url;
+}
+</script>
+
+</body>
+</html>
